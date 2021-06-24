@@ -173,3 +173,20 @@ user_data_fields = [
 # 	"salary_comp.auth.validate"
 # ]
 
+fixtures = [
+  {
+    "dt": "Salary Component",
+
+  },
+  {
+    "dt": "Salary Structure",
+    "filters": [
+      [
+        "name", "in", [
+          "2021 Salary Structure",
+        ]
+      ]
+    ]
+
+  },
+  ]
